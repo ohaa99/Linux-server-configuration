@@ -43,7 +43,7 @@ I setup my project on an Ubuntu Linux server on an Amazon Lightsail instance.
 11. Open up a new terminal and you can now ssh in via the new port 2200: `$ ssh -i ~/.ssh/lightsail_key.rsa ubuntu@YOUR_SERVER_PUBLIC_IP -p 2200`
 ### Create a new account and give it `sudo` access 
 1. Create a new user **grader**:`$ sudo adduser grader`
-2. `usermod -aG sudo ugrader`
+2. `usermod -a -G sudo grader`
 ### Set SSH login to the **grader** user using public-private keys
 1. **On your local machine** , Create an SSH key pair for **grader** using the `ssh-keygen` tool . Save it in `~/.ssh` path
 2. Deploy public key on development environment
