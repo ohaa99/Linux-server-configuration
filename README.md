@@ -162,10 +162,9 @@ I setup my project on an Ubuntu Linux server on an Amazon Lightsail instance.
 
 ### Set up database schema
 1. Run `$ sudo python database_setup.py`
-2. Run `$ sudo python tvshows.py` to populate database
-3. Restart **Apache**: `$ sudo service apache2 reload`
-4. Now follow the link to [Your_Public_ip] **HERE** is http://13.233.165.143/ the application should be runing online
-5. If internal errors occur: check the [Apache error file](https://www.a2hosting.com/kb/developer-corner/apache-web-server/viewing-apache-log-files)
+2. Restart **Apache**: `$ sudo service apache2 reload`
+3. Now follow the link to [Your_Public_ip] **HERE** is http://13.233.165.143/ the application should be runing online
+4. If internal errors occur: check the [Apache error file](https://www.a2hosting.com/kb/developer-corner/apache-web-server/viewing-apache-log-files)
 note : if you get **a internal server error** , run  `sudo tail /var/log/apache2/error.log
 ` to see the bugs and fix them.
 ## Third-Party Resources
