@@ -18,7 +18,7 @@ I setup my project on an Ubuntu Linux server on an Amazon Lightsail instance.
 2. Create a new file named **lightsail_key.rsa** under ~/.ssh folder on your local machine
 3. Copy paste the **content** from downloaded private key file to **lightsail_key.rsa**
 4. Set file permission as owner only : `$ chmod 600 ~/.ssh/lightsail_key.rsa`
-5. SSH into the instance: `$ ssh -i ~/.ssh/lightsail_key.rsa ubuntu@[Your_Public_IP].
+5. SSH into the instance: `$ ssh -i ~/.ssh/lightsail_key.rsa ubuntu@[Your_Public_IP]`.
 1. Run `sudo apt-get update` to update packages
 2. Run `sudo apt-get upgrade` to install the latest versions of the packages.
 3. Set for future updates: `sudo apt-get dist-upgrade`
